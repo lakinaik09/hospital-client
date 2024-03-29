@@ -19,14 +19,17 @@
 }
  .hero-slider-caption h5 {
      margin-bottom: 25px;
+     color: white;
 }
  .hero-slider-caption h1 {
      font-size: 80px;
+     color: white;
      margin-bottom: 20px;
      letter-spacing: -2.3px;
 }
  .hero-slider-caption p {
      margin-bottom: 35px;
+     color: white;
 }
  .caregive-box {
      border-radius: 16px;
@@ -127,11 +130,11 @@
      box-shadow: 0px 6px 12px 0px rgba(254, 69, 54, 0.4);
 }
 .slider_bg_1{
-    background: url(../img/slider/slider-bg-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.26),rgba(0, 0, 0, 0.301)),url(../img/slider/slider-bg-1.jpg);
     background-repeat: no-repeat;
 }
 .slider_bg_2{
-    background: url(../img/slider/slider-bg-2in1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.26),rgba(0, 0, 0, 0.301)),url(../img/slider/slider-bg-2.jpg);
     background-repeat: no-repeat;
 }
 .slider-active button.slick-arrow::before {
@@ -142,22 +145,32 @@
 .hero_two_slider .single-slider{
     background: url(../img/slider/slider-bg-2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .single-slider.home_three{
     background: url(../img/slider/slider-bg-3.jpg);
     background-position: center top;
+    background-size: cover;
+    background-position: center;
 }
 .brand-area{
     background: url(../img/slider/slider-bg-1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .h4slider-bg{
     background: url(../img/bg/home4__hero__bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .h5slider_bg{
     background: url(../img/bg/home5__hero__bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .single-brand img{
     display: inline-block;

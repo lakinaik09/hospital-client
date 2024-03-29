@@ -39,6 +39,7 @@ import WishList from './pages/wishList/WishList';
 import HomeFive from './pages/HomeFive/HomeFive';
 import './App.css';
 import NotFound from './pages/NotFound/NotFound';
+import Services from './pages/Services/ServicesTwo/ServicesTwo';
 
 
 function App() {
@@ -54,8 +55,8 @@ function App() {
             <Route path="/homeThree" element={<HomeThree />} />
             <Route path="/homeFour" element={<HomeFour />} />
             <Route path="/homeFive" element={<HomeFive />} />
-            <Route path="/services" element={<ServicesOne />} />
-            <Route path="/servicesTwo" element={<ServicesTwo />} />
+            <Route path="/departments" element={<Services />} />
+            <Route path="/Truama" element={<ServicesOne />} />
             <Route path="/servicesDetails" element={<ServicesDetails />} />
             <Route path="/doctors" element={<DoctorsOne />} />
             <Route path="/doctorsTwo" element={<DoctorsTwo />} />

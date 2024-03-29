@@ -4,7 +4,7 @@
      background: #f3f6ff;
 }
  .header-info {
-     padding-left: 20px;
+    //  padding-left: 20px;
 }
  .header-info span {
      margin-right: 39px;
@@ -62,18 +62,19 @@
  .logo img {
      position: relative;
      z-index: 2;
+     width: 120% !important;
 }
- .logo-circle::before {
-     position: absolute;
-     content: "";
-     border: 47px solid #fff;
-     left: -35px;
-     width: 150px;
-     height: 150px;
-     top: -35px;
-     border-radius: 100%;
-     z-index: 1;
-}
+//  .logo-circle::before {
+//      position: absolute;
+//      content: "";
+//      border: 47px solid #fff;
+//      left: -35px;
+//      width: 150px;
+//      height: 150px;
+//      top: -35px;
+//      border-radius: 100%;
+//      z-index: 1;
+// }
  .header__menu ul li {
      display: inline-block;
      margin-left: 30px;
@@ -85,7 +86,7 @@
  .header__menu ul li a {
      color: #647589;
      font-weight: 500;
-     padding: 48px 0;
+     padding: 30px 0;
      display: block;
      font-size: 14px;
 }

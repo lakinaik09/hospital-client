@@ -18,7 +18,7 @@ const AboutArea = () => {
                      <i className="fas fa-play"></i></button>
                </div>
                <div className="about-shape">
-                  <img src="img/about/about-shape.png" alt="" />
+                  <img src="img/about/about-shap.png" alt="" />
                </div>
             </div>
          } />

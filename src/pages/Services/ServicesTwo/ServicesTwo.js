@@ -7,12 +7,12 @@ import ServicesOneHiringArea from '../ServicesOne/ServicesOneHiringArea/Services
 import ServicesTwoAbout from './ServicesTwoAbout/ServicesTwoAbout';
 import ServicesTwoArea from './ServicesTwoArea/ServicesTwoArea';
 
-const ServicesTwo = () => {
+const Services = () => {
     return (
         <>
             <HomeHeader />
-            <CommonPageHeader title="Our Services" subtitle="Services" />
-            <ServicesTwoAbout/>
+            <CommonPageHeader title="Departments & Services" subtitle="Departments & Services" />
+            {/* <ServicesTwoAbout/> */}
             <ServicesTwoArea/>
             <CalculateArea />
             <ServicesOneHiringArea />
@@ -21,4 +21,4 @@ const ServicesTwo = () => {
     );
 };
 
-export default ServicesTwo;
+export default Services;

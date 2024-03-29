@@ -24,12 +24,12 @@ const HomeServices = () => {
                </div>
                <div className="row">
 
-                  <HomeSIngleService icon="1" title="Body Surgery" />
-                  <HomeSIngleService icon="2" title="Dental Care" />
-                  <HomeSIngleService icon="3" title="service-content" />
-                  <HomeSIngleService icon="4" title="Blood Cancer" />
-                  <HomeSIngleService icon="5" title="Neurology Sargery" />
-                  <HomeSIngleService icon="6" title="Allergic Issue" />
+                  <HomeSIngleService icon="1" title="Biggest ICU" />
+                  <HomeSIngleService icon="2" title="Dental Surgery" />
+                  <HomeSIngleService icon="3" title="Emergency Care" />
+                  <HomeSIngleService icon="4" title="Center For Mother & Child" />
+                  <HomeSIngleService icon="5" title="Gynecology & Obstetrics" />
+                  <HomeSIngleService icon="6" title="ENT Solutions" />
 
                </div>
             </div>

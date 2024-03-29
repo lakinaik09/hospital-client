@@ -31,12 +31,13 @@ const ServicesTwoArea = () => {
                </div>
                <div className="row">
 
-                  <ServicesTwoSingleItem image="1" title="Body Surgery" />
-                  <ServicesTwoSingleItem image="2" title="Neurology Sargery" />
-                  <ServicesTwoSingleItem image="3" title="Blood Cancer" />
-                  <ServicesTwoSingleItem image="4" title="Family Care" />
-                  <ServicesTwoSingleItem image="5" title="Eye Care" />
-                  <ServicesTwoSingleItem image="6" title="Allergic Issue" />
+                  <ServicesTwoSingleItem image="1" link={'trauma-care'} title="Trauma Care(Emergency)" />
+                  <ServicesTwoSingleItem image="2" link={'medicine-rehabilitation'} title="Medicine & Rehabilitation" />
+                  <ServicesTwoSingleItem image="3" link={'paediatrics-neonaology'} title="Paediatrics & Neonaology" />
+                  <ServicesTwoSingleItem image="4" link={'bone-joint'} title="Bone & Joint" />
+                  <ServicesTwoSingleItem image="5" link={'neuroscience'} title="Neuroscience" />
+                  <ServicesTwoSingleItem image="6" link={'critical-care'} title="Critical Care" />
+                  <ServicesTwoSingleItem image="7" link={'diabetes-bariatric-surgery'} title="Diabetes & Bariatric Surgery" />
 
                </div>
             </div>

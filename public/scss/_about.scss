@@ -15,7 +15,13 @@
      padding-left: 23px;
 }
  .author-ava {
+    width: 60px;
+    height: 60px;
      margin-right: 30px;
+}
+.author-ava img{
+    width: 100%;
+    object-fit: cover;
 }
  .author-desination h6 {
      color: #119cbf;

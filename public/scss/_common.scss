@@ -8,7 +8,7 @@
      font-size: 14px;
 }
  .img,img {
-     max-width: 100%;
+    //  max-width: 100%;
      transition: all 0.3s ease-out 0s;
 }
  .f-left {
@@ -68,7 +68,7 @@
      color: inherit;
 }
  h1 {
-     font-size: 60px;
+     font-size: 50px;
      letter-spacing: -.3px;
      line-height: 1.22;
 }
@@ -185,21 +185,28 @@
      background: #045981;
      color: #fff;
 }
+.login-btn{
+    border: 2px solid blue;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: blue;
+    color: white;
+}
  .btn-icon {
      border-radius: 30px;
      padding-left: 84px;
      padding-right: 50px;
      padding-top: 24px;
      padding-bottom: 22px;
-     background-color: rgb(225, 36, 84);
+     background-color: rgb(18, 119, 214);
      box-shadow: 0px 8px 16px 0px rgba(225, 36, 84, 0.2);
 }
  .btn-icon-green {
-     background-color: rgb(143, 181, 105);
+     background-color: rgb(28, 135, 223);
      box-shadow: 0px 8px 16px 0px rgba(143, 181, 105, 0.3);
 }
  .btn-icon:hover {
-     background-color: rgb(143, 181, 105);
+     background-color: rgb(219, 153, 30);
      box-shadow: 0px 8px 16px 0px rgba(125, 178, 73, 0.2);
      color: #fff;
 }

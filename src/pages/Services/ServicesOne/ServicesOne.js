@@ -10,10 +10,10 @@ const ServicesOne = () => {
    return (
       <>
          <HomeHeader/>
-         <CommonPageHeader title="Our Services" subtitle="Services" />
+         <CommonPageHeader title="Departments & Services" subtitle="Departments & Services" />
          <ServicesOneABout/>
-         <CalculateArea/>
-         <ServicesOneHiringArea/>
+         {/* <CalculateArea/> */}
+         {/* <ServicesOneHiringArea/> */}
          <Footer/>
       </>
    );
