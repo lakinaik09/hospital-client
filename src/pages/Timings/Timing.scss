@@ -1,0 +1,46 @@
+.timing {
+  padding: 90px;
+  width: 80%;
+}
+.timetable {
+  border: 2px solid;
+  border-collapse: collapse;
+  width: 50%;
+  font-size: medium;
+}
+th {
+  padding-top: 8px;
+  padding-bottom: 8px;
+
+  background-color: #1d77bc;
+  color: white;
+}
+td {
+  
+  color: rgb(24, 23, 23);
+  padding: 8px;
+}
+tr {
+  text-align: left;
+}
+tr:hover {
+  background-color: rgb(159, 190, 214);
+}
+p{
+     font-size: medium;
+}
+.flex-container{
+     display: flex;
+     gap: 10px;
+     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+     width: 40%;
+     border: 2px solid gray;
+     row-gap: 5px;
+     padding: 10px;
+}
+.title{
+     color: rgb(20, 82, 129);
+}
+.backdel{
+  display: flex;
+}

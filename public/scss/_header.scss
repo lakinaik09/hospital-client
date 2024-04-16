@@ -17,11 +17,11 @@
      padding-top: 45px;
 }
  .transparrent-header {
-     position: absolute;
+     position: static;
      right: 0;
      left: 0;
      top: 0;
-     z-index: 999;
+     z-index: 0;
 }
  .header-cta-info {
      margin-right: 45px;
@@ -50,7 +50,7 @@
   transition: all 0.3s ease-out 0s;
 }
 .sticky_menu.sticky_navBar_bg{
-    background: #223645;
+    background: #335065;
 }
 .sticky_menu.header-padding{
     padding-top: 0px;

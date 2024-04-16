@@ -12,18 +12,16 @@ const Footer = () => {
                      <div className="col-xl-4 col-lg-6 col-md-6">
                         <div className="footer-contact-info footer-contact-info-3 mb-40">
                            <div className="footer-logo mb-35">
-                              <Link to="/"><img src="img/logo/footer-logo-3.png" alt="" /></Link>
+                              <Link to="/"><img src="https://saisaburihospitalbalakati.com/images/logo-grey.png" alt="" /></Link>
                            </div>
                            <div className="footer-contact-content mb-25">
-                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                 incididunt ut labore et dolore magna
-                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+                              <p>Saisaburi Hospital is a state-of-the-art healthcare hospital that is committed to providing high-quality medical care to patients. Located in a convenient and accessible area, the hospital is equipped with the latest medical equipment and technology, and staffed by highly trained and experienced medical professionals.</p>
                            </div>
                            <div className="footer-emailing">
                               <ul>
-                                 <li><i className="far fa-envelope"></i>info@examplemedical.com</li>
+                                 <li><i className="far fa-envelope"></i>saihealthsciencecollege@gmail.com</li>
                                  <li><i className="far fa-clone"></i>examplemedical.com</li>
-                                 <li><i className="far fa-flag"></i>227 Marion Street, Columbia</li>
+                                 <li><i className="far fa-flag"></i>Panchayat Road, Puran padhan, Balakati, Pin-752100</li>
                               </ul>
                            </div>
                         </div>

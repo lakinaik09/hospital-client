@@ -30,8 +30,7 @@ import PortfolioThreeCol from './pages/PortfolioThreeCol/PortfolioThreeCol';
 import PortfolioTwoColumn from './pages/PortfolioTwoColumn/PortfolioTwoColumn';
 import Register from './pages/Register/Register';
 import ServicesDetails from './pages/Services/ServicesDetails/ServicesDetails';
-import ServicesOne from './pages/Services/ServicesOne/ServicesOne';
-import ServicesTwo from './pages/Services/ServicesTwo/ServicesTwo';
+
 import ShopDetails from './pages/ShopDetails/ShopDetails/ShopDetails';
 import ShopPage from './pages/ShopPage/ShopPage/ShopPage';
 import ShoppingCart from './pages/ShoppingCart/ShoppingCart';
@@ -40,6 +39,31 @@ import HomeFive from './pages/HomeFive/HomeFive';
 import './App.css';
 import NotFound from './pages/NotFound/NotFound';
 import Services from './pages/Services/ServicesTwo/ServicesTwo';
+import TraumaCare from './pages/Trauma/TraumaCare';
+import CriticalCare from './pages/Critical Care/CriticalCare';
+import PaediatricsNeonaology from './pages/Paediatrics & Neonaology/PaediatricsNeonaology';
+import MedicineRehabilitation from './pages/Medicine & Rehabilitation/MedicineRehabilitation';
+import Neuroscience from './pages/Neuroscience/Neuroscience';
+import FindADoctor from './pages/FindADoctor/FindADoctor';
+import MakeAnAppointment from './pages/MakeAnAppointment/MakeAnAppointment';
+import BoneJoint from './pages/BoneJoint/BoneJoint';
+import DiabetesBariatricSurgery from './pages/DiabetesBariatricSurgery/DiabetesBariatricSurgery';
+import Billing from './pages/Billing/Billing';
+import Testimonials from './pages/Testimonials/Testimonials';
+import PatientGuide from './pages/PatientGuide/PatientGuide';
+import Timing from './pages/Timings/Timings';
+import Healthtips from './pages/Healthtips/Healthtips';
+import Events from './pages/Events/Events';
+import Bulletin from './pages/Bulletin/Bulletin';
+import Newshead from './pages/Newshead/Newswhead';
+import DoctorProfile from './pages/DoctorProfile/DoctorProfile';
+import PhoneDirectory from './pages/PhoneDirectory/PhoneDirectory';
+import Enquiry from './pages/Enquiry/Enquiry';
+import PntVisComp from './pages/PntVisComp/PntVisComp';
+import Deptser from './pages/deptser/Deptser';
+import Healthinfo from './pages/Healthinfo/Healthinfo';
+import ReachUs from './pages/ReachUs/ReachUs';
+
 
 
 function App() {
@@ -55,8 +79,58 @@ function App() {
             <Route path="/homeThree" element={<HomeThree />} />
             <Route path="/homeFour" element={<HomeFour />} />
             <Route path="/homeFive" element={<HomeFive />} />
+            
+            
+
+
             <Route path="/departments" element={<Services />} />
-            <Route path="/Truama" element={<ServicesOne />} />
+            <Route path="/trauma-care" element={<TraumaCare />} />
+            <Route path="/critical-care" element={<CriticalCare />} />
+            <Route path="/paediatrics-neonatology" element={<PaediatricsNeonaology />} />
+            <Route path="/medicine-rehabilitation" element={<MedicineRehabilitation />} />
+            <Route path="/neuroscience" element={<Neuroscience />} />
+            <Route path="/find-a-doctor" element={<FindADoctor />} />
+            <Route path="/make-an-appointment" element={<MakeAnAppointment />} />
+            <Route path="/bone-joint" element={<BoneJoint/>}/>
+            <Route path="/diabetes-bariatrics-surgery" element={<DiabetesBariatricSurgery/>}/>
+            <Route path="/billing" element={<Billing/>}/>
+            <Route path="/testimonials" element={<Testimonials/>}/>
+            <Route path="/patient-guide-visitors" element={<PatientGuide/>}/>
+            <Route path="/timings" element={<Timing/>}/>
+            <Route path="/health-tips" element={<Healthtips/>}/>
+            <Route path="/events" element={<Events/>}/>
+            <Route path="/event-bulletin" element={<Bulletin/>}/>
+            <Route path="/news-head" element={<Newshead/>}/>
+            <Route path="/doctors-profile" element={<DoctorProfile/>}/>
+            <Route path="/phone-directory" element={<PhoneDirectory/>}/>
+            <Route path="/enquiry" element={<Enquiry/>}/>
+            <Route path="/doctors" element={<PntVisComp/>}/>
+            <Route path="/online-reports-portal" element={<Login/>}/>
+            <Route path="/login" element={<Login/>}/>
+            <Route path="/departments" element={<Deptser/>}/>
+            <Route path="/health-info" element={<Healthinfo/>}/>
+            <Route path="/reachus" element={<ReachUs/>}/>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <Route path="/servicesDetails" element={<ServicesDetails />} />
             <Route path="/doctors" element={<DoctorsOne />} />
             <Route path="/doctorsTwo" element={<DoctorsTwo />} />

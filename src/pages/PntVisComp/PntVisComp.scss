@@ -1,0 +1,76 @@
+.PntVisComp{
+     padding: 20px;
+    
+     margin-left: 10px;
+     position: sticky;
+     
+
+     
+}
+.pntitle{
+     text-align: center;
+     padding: 20px 0;
+     color: white ;
+}
+.box{
+     margin-top: 50px;
+     padding: 10px 0;
+     // height:400px;
+     background-color: #1D77BC;
+     text-align: left ;
+     padding: 20px;
+     border-radius: 5px 5px 5px 5px ;
+     gap: 1px;
+}
+.list a{
+     font-size: 1em;
+     margin: 20px;
+     gap:2px;
+     color: white !important;
+     
+}
+.lim{
+     border-bottom: dotted white;
+      gap:5px ;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+
+}
+
+
+
+
+
+ 
+
+
+
+
+ 
+ .doctor-link {
+     text-decoration: none; 
+     display: inline-block;
+     left: 500px; 
+ }
+ .btndoc{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ }
+ .btndoc a{
+     width: 100%;
+}
+
+.view-doctor{ 
+     text-align: center;
+     background-color: transparent;
+     border: 2px solid #0084ff;
+     margin-top: 10px;
+     padding: 10px;
+     border-radius: 6px;
+}
+.view-doctor:hover{
+     color: white !important;
+     background-color: #0084ff;
+}

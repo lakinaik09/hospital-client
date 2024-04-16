@@ -171,7 +171,8 @@ const HomeHeader = () => {
                         <Link to="/doctors-profile">Doctors' Profile</Link>
                       </li>
                       <li>
-                        <a href="#">Reach Us +</a>
+                       
+                        <Link to="/reachus">Reach Us +</Link>
                         <ul className="submenu">
                           <li>
                             <Link to="/phone-directory">Phone Directory</Link>
@@ -182,9 +183,9 @@ const HomeHeader = () => {
                         </ul>
                       </li>
                       <li>
-                        <button className="btn-primary px-3 py-1 rounded">
+                        <Link to="/login" className="btn-primary px-3 py-1 rounded">
                           Login
-                        </button>
+                        </Link>
                       </li>
                     </ul>
                   </nav>
